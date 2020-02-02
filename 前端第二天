@@ -1,0 +1,83 @@
+html（hyper text markup language）超文本标记语言；
+html不是编程语言，而是一种编程语言。
+由万维网联盟w3c制定
+
+HTML标签成对出现
+eg：<html> </html>
+
+HTML文档即为网页
+
+<html>中间的文本描述网页</html>
+<body>之间的文本即为可见内容</body>
+<h1>标题，数字可选1-6,改变文字大小</h1>
+<p>段落</p>
+
+<a href="http://www.baidu.com">百度一下</a>(创建链接)
+
+<img src="???.jpg" width="120" height="120" />(html图片)
+
+特殊的标签
+<br/>（换行）  只有单独一个，不成对出现
+
+HTML标签属性
+<h1 align="center"> </h1>
+<body bgcolor="yellow"> </body>
+<table border="1"> </table>
+
+HTML中所有的连续空格只算一个 空格
+<hr>定义水平线
+<!--...-->注释
+
+关于style属性
+style属性提供了一种用于改变所有HTML元素的样式的通用方法
+样式是由HTML4引入；其中有很多标签已经废弃（deprecated）；
+废弃的标签
+<center>
+<font> <basefont>
+<s> <strike>
+<u>
+废弃的属性
+color
+bgcolor
+align
+
+style的用法
+<p style="text-align:center;font-family:verdana;color:red;font-size:16px;">
+
+HTML CSS
+独立样式
+
+外部样式表
+内部样式表（位于<head>标签内部）
+内联样式（在HTML元素内部）
+
+html块元素  通常会以新行来开始
+<div>
+html内联元素  不会以新行开始
+<span>
+
+链接
+target="_blank"(在新页面打开)
+
+图片
+<img src="boat.gif" alt="Big Boat">
+
+响应式web设计
+RWD（responsible web design）RWD能够以可变的尺寸传递网页 RWD对于平板和移动设备而言是必须的
+创建的方法有两种
+1 自己创建它
+2 使用bootstrap
+
+框架  将一个页面分成不同的几份
+<frame>
+eg：
+<frameset cols="25%,75%">
+   <frame src="frame_a.htm">
+   <frame src="frame_b.htm">
+</frameset>
+
+iframe  网页内显示网页
+
+<meta name="description" content="caianana">这部分内容对用户不可见，但对机器可见，搜索引擎会将其作为依据
+
+URL  （uniform resource locator）统一资源定位符   可以用：网址域名或者IP地址
