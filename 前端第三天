@@ -1,0 +1,38 @@
+CSS
+text-indent（文本缩进）
+p{text-indent：5em}
+也可以使用百分比
+p{text-indent：20%}
+
+text-align（水平对齐）
+text—align：center（居中）
+text-align：justify（对齐）
+
+word-spacing（字间隔）
+{word-spacing：5px/5em;}
+
+text-transform(字符转换，处理文本大小写)
+none 不做改变
+uppercase 全大写
+lowercase 全小写
+capitalize 首字母大写
+
+text-decoration（文本装饰）
+none 不做改变
+underline 下划线
+overline 上划线
+line-through 横贯线
+blink 文本闪烁
+
+
+font-family（文本字体类型）
+
+font-style(字体风格)
+normal 正常
+italic 斜体
+oblique 文本倾斜显示
+
+font-weight（字体加粗）
+100-900 9级加粗度 100最细 400正常 700即为bold 900最粗
+font-size（文本大小）
+
