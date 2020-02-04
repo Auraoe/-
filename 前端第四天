@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<title>
+前端第四天
+<title>
+<style="text/css">
+h1.parameter{
+  text-align:center;
+  color:yellow;
+  font-weight:700;
+  }
+</style>
+</head>
+
+<body>
+<h1 class="parameter">前端第四天</h1>
+<p>background-color:gray背景色设置为灰色
+padding=20px增加内边界;</p>
+background-image：背景图片；
+background-repeat：背景重复
+no-repeat
+repeat
+repeat-x
+repeat-y
+background-position：背景定位
+top，left，right，bottom，center
+也可以用百分比来表示：back-position：33%，66%/50px,100px；
+背景固定或者滚动background-attachment:fixed/scroll
+</p>
+
+<p>
+边框，border
+
+
+
+</body>
+
+</html>
