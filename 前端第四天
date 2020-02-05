@@ -1,6 +1,9 @@
 <html>
 
 <head>
+<meta>提供与页面有关的元信息，比如针对搜索引擎和更新频度的描述和关键词
+<meta content="" http-equiv="" name="" scheme="">
+
 <title>
 前端第四天
 <title>
