@@ -33,10 +33,33 @@ top，left，right，bottom，center
 </p>
 
 <p>
-边框，border
+边框，border 围绕元素内容和内边距的一条线或多条线。 
+  CSS border 允许规定元素边框的样式，宽度和颜色。
+ border style:定义边框样式 solid实线 dotted点线 dashed虚线  double双线
+ p.aside {border-style: solid（上边框） dotted（右） dashed（下） double（左）;}
+单边样式  border-style-top上边框
 
+border-width(边框宽度)
+p {border-style: solid; border-width: 5px/thin/medium/thick/0.2em;}
 
+border-color:可以设为透明（transparent）
+</p>
 
+<p>
+list
+list-style-type:squre/circle/(方块)
+list-style-imge:(列表项图像)
+list-style-position:(列表标志位置)
+
+a
+a:link/*未被访问的链接*/
+a:visited/*已被访问的链接*/
+
+/*hover必须位于 link和visited 后*/
+a:hover/*鼠标移动到链接上*/
+
+/*active必须位于hover后*/
+a:active/*被点击的链接*/
 </body>
 
 </html>
